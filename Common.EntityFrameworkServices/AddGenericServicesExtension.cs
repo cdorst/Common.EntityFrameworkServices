@@ -10,7 +10,6 @@ namespace Common.EntityFrameworkServices.Services
                 .AddScoped(typeof(ICacheWithDefaultKeysService<>), typeof(CacheWithDefaultKeysService<>))
                 .AddScoped(typeof(IEntityKeyValuesService<>), typeof(EntityKeyValuesService<>))
                 .AddScoped(typeof(IRepository<,>), typeof(CachedRepository<,>))
-                .AddScoped(typeof(IUpsertService<,>), typeof(UpsertService<,>))
                 .AddScoped(typeof(IUpsertListService<,>), typeof(UpsertListService<,>))
                 .AddScoped(typeof(IUpsertMappedListService<,,>), typeof(UpsertMappedListService<,,>))
                 .AddScoped(typeof(IUpsertUniqueListService<,,,>), typeof(UpsertUniqueListService<,,,>));
