@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 
-namespace Common.EntityFrameworkServices.Services
+namespace Common.EntityFrameworkServices
 {
     public static class AddGenericServicesExtension
     {

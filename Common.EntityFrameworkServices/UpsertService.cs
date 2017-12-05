@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 
-namespace Common.EntityFrameworkServices.Services
+namespace Common.EntityFrameworkServices
 {
     public class UpsertService<TDbContext, TRecord> : IUpsertService<TDbContext, TRecord>
         where TDbContext : DbContext

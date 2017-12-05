@@ -7,7 +7,7 @@ using System;
 using System.IO;
 using System.Threading.Tasks;
 
-namespace Common.EntityFrameworkServices.Services
+namespace Common.EntityFrameworkServices
 {
     public class CacheService<TRecord> : ICacheService<TRecord>
         where TRecord : class

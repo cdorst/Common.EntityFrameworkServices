@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
 
-namespace Common.EntityFrameworkServices.Services
+namespace Common.EntityFrameworkServices
 {
     public interface IRepository<TDbContext, TEntity>
         where TDbContext : DbContext

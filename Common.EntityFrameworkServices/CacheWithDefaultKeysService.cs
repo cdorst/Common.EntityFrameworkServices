@@ -2,7 +2,7 @@
 using System;
 using System.Threading.Tasks;
 
-namespace Common.EntityFrameworkServices.Services
+namespace Common.EntityFrameworkServices
 {
     public class CacheWithDefaultKeysService<TRecord> : ICacheWithDefaultKeysService<TRecord>
         where TRecord : class

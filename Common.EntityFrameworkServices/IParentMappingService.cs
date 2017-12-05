@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Common.EntityFrameworkServices.Services
+namespace Common.EntityFrameworkServices
 {
     public interface IParentMappingService<TInput, TOutput>
         where TInput : class

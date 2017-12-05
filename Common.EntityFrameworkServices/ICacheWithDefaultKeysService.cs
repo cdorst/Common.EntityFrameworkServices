@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace Common.EntityFrameworkServices.Services
+namespace Common.EntityFrameworkServices
 {
     public interface ICacheWithDefaultKeysService<TRecord>
         where TRecord : class

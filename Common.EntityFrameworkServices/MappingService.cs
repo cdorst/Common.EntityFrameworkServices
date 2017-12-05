@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
 using System;
 
-namespace Common.EntityFrameworkServices.Services
+namespace Common.EntityFrameworkServices
 {
     public abstract class MappingService<TInput, TOutput> : IMappingService<TInput, TOutput>
         where TInput : class

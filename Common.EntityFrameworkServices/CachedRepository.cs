@@ -3,7 +3,7 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.Threading.Tasks;
 
-namespace Common.EntityFrameworkServices.Services
+namespace Common.EntityFrameworkServices
 {
     public class CachedRepository<TDbContext, TEntity> : Repository<TDbContext, TEntity>
         where TDbContext : DbContext

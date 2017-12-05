@@ -3,7 +3,7 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.Threading.Tasks;
 
-namespace Common.EntityFrameworkServices.Services
+namespace Common.EntityFrameworkServices
 {
     public class Repository<TDbContext, TEntity> : IRepository<TDbContext, TEntity>
         where TDbContext : DbContext

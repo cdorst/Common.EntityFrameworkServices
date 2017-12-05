@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Common.EntityFrameworkServices.Services
+namespace Common.EntityFrameworkServices
 {
     public class UpsertMappedListService<TDbContext, TInput, TOutput> : IUpsertMappedListService<TDbContext, TInput, TOutput>
         where TDbContext : DbContext

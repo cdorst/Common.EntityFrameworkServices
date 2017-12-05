@@ -1,4 +1,4 @@
-﻿namespace Common.EntityFrameworkServices.Services
+﻿namespace Common.EntityFrameworkServices
 {
     public interface IMappingService<TInput, TOutput>
         where TInput : class

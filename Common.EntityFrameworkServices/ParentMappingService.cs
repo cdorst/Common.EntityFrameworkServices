@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Common.EntityFrameworkServices.Services
+namespace Common.EntityFrameworkServices
 {
     public abstract class ParentMappingService<TInput, TOutput> : IParentMappingService<TInput, TOutput>
         where TInput : class

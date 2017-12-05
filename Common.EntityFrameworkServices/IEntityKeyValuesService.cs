@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Common.EntityFrameworkServices.Services
+namespace Common.EntityFrameworkServices
 {
     public interface IEntityKeyValuesService<TEntity>
         where TEntity : class

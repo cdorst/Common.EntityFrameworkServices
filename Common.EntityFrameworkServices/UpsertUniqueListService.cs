@@ -4,7 +4,7 @@ using System;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Common.EntityFrameworkServices.Services
+namespace Common.EntityFrameworkServices
 {
     public class UpsertUniqueListService<TDbContext, TRecord, TRecordList, TRecordListAssociation> : IUpsertUniqueListService<TDbContext, TRecord, TRecordList, TRecordListAssociation>
         where TDbContext : DbContext

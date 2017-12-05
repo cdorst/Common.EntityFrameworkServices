@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 
-namespace Common.EntityFrameworkServices.Services
+namespace Common.EntityFrameworkServices
 {
     public class EntityKeyValuesService<TEntity> : IEntityKeyValuesService<TEntity>
         where TEntity : class
