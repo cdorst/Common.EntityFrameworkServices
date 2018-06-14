@@ -5,8 +5,8 @@ namespace Common.EntityFrameworkServices
     public interface IEntityKeyValuesService<TEntity>
         where TEntity : class
     {
-        string GetCacheKey(TEntity entity);
-        string GetCacheKey(IEnumerable<object> keyValues);
+        string GetCacheKey(in TEntity entity);
+        string GetCacheKey(in IEnumerable<object> keyValues);
         IEnumerable<object> GetKeyValues(TEntity entity);
     }
 }

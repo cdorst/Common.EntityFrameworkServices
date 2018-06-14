@@ -4,6 +4,6 @@
         where TRecord : class, IUniqueListRecord
     {
         TRecord GetRecord();
-        void SetRecord(TRecord record);
+        void SetRecord(in TRecord record);
     }
 }

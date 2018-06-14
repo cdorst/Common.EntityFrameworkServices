@@ -5,8 +5,9 @@
     <Description>Generic services for Entity Framework Core</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>CDorst.Common.EntityFrameworkServices</PackageId>
+    <LangVersion>latest</LangVersion>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Version>2.2.2</Version>
+    <Version>2.2.3</Version>
   </PropertyGroup>
 
   <ItemGroup>

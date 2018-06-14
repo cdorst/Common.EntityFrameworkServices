@@ -1,4 +1,4 @@
-﻿using System;
+﻿using static System.Activator;
 using System.Collections.Generic;
 
 namespace Common.EntityFrameworkServices.Factories
@@ -8,10 +8,10 @@ namespace Common.EntityFrameworkServices.Factories
         where TRecordList : class, IUniqueList<TRecord, TRecordListAssociation>
         where TRecordListAssociation : IUniqueListAssociation<TRecord>
     {
-        public static TRecordList Create(List<TRecord> records)
+        public static TRecordList Create(in List<TRecord> records)
         {
-            var instance = Activator.CreateInstance<TRecordList>();
-            instance.SetRecords(records);
+            var instance = CreateInstance<TRecordList>();
+            instance.SetRecords(in records);
             return instance;
         }
     }

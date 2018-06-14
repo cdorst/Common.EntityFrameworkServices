@@ -15,7 +15,7 @@ namespace Common.EntityFrameworkServices
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
         }
 
-        protected virtual Func<List<TInput>, TOutput> Result { get; set; } = input => default(TOutput);
+        protected virtual Func<List<TInput>, TOutput> Result { get; set; } = input => default;
 
         public TOutput Map(List<TInput> input)
         {

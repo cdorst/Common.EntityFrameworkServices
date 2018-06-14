@@ -7,6 +7,6 @@ namespace Common.EntityFrameworkServices
         where TRecordListAssociation : IUniqueListAssociation<TRecord>
     {
         List<TRecordListAssociation> GetAssociations();
-        void SetRecords(List<TRecord> records);
+        void SetRecords(in List<TRecord> records);
     }
 }
